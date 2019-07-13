@@ -106,3 +106,10 @@ Data loading describes the insertion of data into the final target database
 * In the first step extraction, data is extracted from the source system into the staging area.
 * In the transformation step, the data extracted from source is cleansed and transformed .
 * Loading data into the target datawarehouse is the last step of the ETL process.
+
+
+
+### Descriptive Statistics:
+Descriptive Statistics uses the data to provide descriptions of the population, either through numerical calculation or graph or tables.
+
+
