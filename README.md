@@ -84,7 +84,7 @@ Data transformation processes data by data cleansing and transforming them into 
 * Use lookups to merge data
 * Using any complex data validation (e.g., if the first two columns in a row are empty then it automatically reject the row from processing)
 
-**Load** – 
+### Load – 
 Data loading describes the insertion of data into the final target database
 
 #### Types of Loading:
