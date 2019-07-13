@@ -3,7 +3,7 @@ R is a powerful language used widely for data analysis and statistical computing
 
 # Table of Content
 1. About Data Analysis
-2. ETL
+2. ETL (Extract, Transform, and Load)
 3. Data Manipulation in R
 4. EDA (Exploratory Data Analysis)
 5. Statistics Essentials for Analytics
