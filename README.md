@@ -16,8 +16,10 @@ R is a powerful language used widely for data analysis and statistical computing
 12. Anova and Sentiment Analysis
 
 
-# 1. About Data Analysis
+# 1. About Data Analystics
 **Data Analytics** is the science of examining raw data with the purpose of drawing conclusions about that information. It is all about discovering useful information from the data to support decision-making. This process involves inspecting, cleansing, transforming & modeling data.
+
+Data analystics refers to the techniques to analyes data to enchance productivity and business gain.
 
 **Definition**: Data Analysis is a process of inspecting, cleaning, transforming, and modeling data with the goal of discovering useful information, suggesting conclusions, and supporting decision-making.
 
