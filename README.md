@@ -4,13 +4,17 @@ R is a powerful language used widely for data analysis and statistical computing
 # Table of Content
 1. About Data Analysis
 2. ETL
-3. EDA (Exploratary Data Analysis)
-4. Statistics Essentials for Analytics
-5. Discriptive Statistics
-6. Probabilty and It's Uses
-7. Statistical Inference
-8. Testing the Data
-9. Data Visualization
+3. Data Manipulation in R
+4. EDA (Exploratory Data Analysis)
+5. Statistics Essentials for Analytics
+6. Discriptive Statistics
+7. Probabilty and It's Uses
+8. Statistical Inference
+9. Testing the Data
+10. Data Visualization
+11. Data Mining
+12. Anova and Sentiment Analysis
+
 
 # 1. About Data Analysis
 **Data Analytics** is the science of examining raw data with the purpose of drawing conclusions about that information. It is all about discovering useful information from the data to support decision-making. This process involves inspecting, cleansing, transforming & modeling data.
