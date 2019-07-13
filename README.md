@@ -107,6 +107,38 @@ Data loading describes the insertion of data into the final target database
 * In the transformation step, the data extracted from source is cleansed and transformed .
 * Loading data into the target datawarehouse is the last step of the ETL process.
 
+# 3. Data Manipulation in R
+
+#### Data Wrangling:
+Data Wrangling is the process of converting and mapping data from its raw form to another format with the purpose of making it more valuable and appropriate for advance tasks such as Data Analytics and Machine Learning.
+
+Data wrangling, like most data analytics processes, is an iterative one – the practitioner will need to carry out these steps repeatedly in order to produce the results he desires. There are six broad steps to data wrangling, which are:
+
+##### 1. Discovering
+In this step, the data is to be understood more deeply. Before implementing methods to clean it, you will definitely need to have a better idea about what the data is about. Wrangling needs to be done in specific manners, based on some criteria which could demarcate and divide the data accordingly – these are identified in this step.
+
+##### 2. Structuring
+Raw data is given to you in a haphazard manner, in most cases – there will not be any structure to it. This needs to be rectified, and the data needs to be restructured in a manner that better suits the analytical method used. Based on the criteria identified in the first step, the data will need to be separated for ease of use. One column may become two, or rows may be split – whatever needs to be done for better analysis.
+
+##### 3. Cleaning
+The process of detecting and correcting corrupt or inaccurate records from database or dataset is said to be data cleaning.
+
+All datasets are sure to have some outliers, which can skew the results of the analysis. These will have to be cleaned, for the best results. In this step, the data is cleaned thoroughly for high-quality analysis. Null values will have to be changed, and the formatting will be standardized in order to make the data of higher quality.
+
+Inconsistent and noisy data cannot be used to gain meaningful insights in an organisation. The noisy data needs to be cleaned before it is used for analytical approaches.
+
+##### 4. Enriching
+After cleaning, it will have to be enriched – this is done in the fourth step. This means that you will have to take stock of what is in the data and strategise whether you will have to augment it using some additional data in order to make it better. You should also brainstorm about whether you can derive any new data from the existing clean data set that you have.
+
+##### 5. Validating
+Validation rules refer to some repetitive programming steps which are used to verify the consistency, quality and the security of the data you have. For example, you will have to ascertain whether the fields in the data set are accurate via a check across the data, or see whether the attributes are normally distributed.
+
+##### 6. Publishing
+The prepared wrangled data is published so that it can be used further down the line – that is its purpose after all. If needed, you will also have to document the steps which were taken or logic used to wrangle the said data.
+
+
+### Data Manipulation:
+The process of changing data to make it more orgazined and easy to read is known as Data Manipulation.
 
 
 ### Descriptive Statistics:
