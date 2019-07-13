@@ -26,6 +26,13 @@ Data analystics refers to the techniques to analyes data to enchance productivit
 #### What does a Data Analyst do?
 **Data analysts translate numbers into plain English.** Every business collects data, like sales figures, market research, logistics, or transportation costs. A data analyst’s job is to take that data and use it to help companies to make better business decisions.
 
+#### Why is Data Analytics important?
+As an enormous amount of data gets generated, the need to extract useful insights is a must for a business enterprise. Data Analytics has a key role in improving your business. Here are 4 main factors which signify the need for Data Analytics:
+
+* **Gather Hidden Insights** – Hidden insights from data are gathered and then analyzed with respect to business requirements.
+* **Generate Reports** – Reports are generated from the data and are passed on to the respective teams and individuals to deal with further actions for a high rise in business.
+* **Perform Market Analysis** – Market Analysis can be performed to understand the strengths and the weaknesses of competitors.
+* **Improve Business Requirement** – Analysis of Data allows improving Business to customer requirements and experience.
 
 # 2. ETL (Extract, Transform and Load)
 ETL is defined as a process that extracts the data from different RDBMS source systems or other data sources, then transforms the data (like applying calculations, concatenations, etc.) and finally loads the data into the Data Warehouse system. ETL full-form is Extract, Transform and Load.
