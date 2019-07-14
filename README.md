@@ -137,17 +137,6 @@ All datasets are sure to have some outliers, which can skew the results of the a
 
 Inconsistent and noisy data cannot be used to gain meaningful insights in an organisation. The noisy data needs to be cleaned before it is used for analytical approaches.
 
-We’ll leverage Python’s Pandas and NumPy libraries to clean data.
-
-We’ll cover the following:
-
-* Dropping Columns in a DataFrame
-* Changing the Index of a DataFrame
-* Tidying up Fields in the Data
-* Combining str Methods with NumPy to Clean Columns
-* Cleaning the Entire Dataset Using the applymap Function
-* Renaming Columns and Skipping Rows
-
 ##### 4. Enriching
 After cleaning, it will have to be enriched – this is done in the fourth step. This means that you will have to take stock of what is in the data and strategise whether you will have to augment it using some additional data in order to make it better. You should also brainstorm about whether you can derive any new data from the existing clean data set that you have.
 
@@ -179,8 +168,6 @@ There are several options users can consider while replacing a missing value, fo
 Any imputing conducted on the training dataset will have to be performed on new data in the future when predictions are required from the finalized model. This needs to be taken into factor when choosing how to impute the missing values.
 
 For example, if one chooses to impute with mean column values, the mean column values will need to be stored to file for later exercise new data that has missing values.
-
-Pandas provide the **fillna() function** for returning values with a specific value.
 
 
 ### Descriptive Statistics:
