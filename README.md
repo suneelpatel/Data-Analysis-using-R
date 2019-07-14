@@ -137,6 +137,17 @@ All datasets are sure to have some outliers, which can skew the results of the a
 
 Inconsistent and noisy data cannot be used to gain meaningful insights in an organisation. The noisy data needs to be cleaned before it is used for analytical approaches.
 
+We’ll leverage Python’s Pandas and NumPy libraries to clean data.
+
+We’ll cover the following:
+
+* Dropping Columns in a DataFrame
+* Changing the Index of a DataFrame
+* Tidying up Fields in the Data
+* Combining str Methods with NumPy to Clean Columns
+* Cleaning the Entire Dataset Using the applymap Function
+* Renaming Columns and Skipping Rows
+
 ##### 4. Enriching
 After cleaning, it will have to be enriched – this is done in the fourth step. This means that you will have to take stock of what is in the data and strategise whether you will have to augment it using some additional data in order to make it better. You should also brainstorm about whether you can derive any new data from the existing clean data set that you have.
 
@@ -145,6 +156,31 @@ Validation rules refer to some repetitive programming steps which are used to ve
 
 ##### 6. Publishing
 The prepared wrangled data is published so that it can be used further down the line – that is its purpose after all. If needed, you will also have to document the steps which were taken or logic used to wrangle the said data.
+
+#### Tidy Data:
+##### Tidy data is a standard way of mapping the meaning of a dataset to its structure.
+
+In tidy data:
+* 1. Each variable forms a column.
+* 2. Each observation forms a row.
+* 3. Each type of observational unit forms a table.
+
+#### Impute Missing Values
+
+Imputing relates to applying a model to restore missing values.
+
+There are several options users can consider while replacing a missing value, for example:
+
+* A fixed value that has meaning within the domain, such as 0, distinct from all other values.
+* A value from another randomly chosen from the record.
+* A mean, median or mode value replaced for the column.
+* A value determined by another predictive model.
+
+Any imputing conducted on the training dataset will have to be performed on new data in the future when predictions are required from the finalized model. This needs to be taken into factor when choosing how to impute the missing values.
+
+For example, if one chooses to impute with mean column values, the mean column values will need to be stored to file for later exercise new data that has missing values.
+
+Pandas provide the **fillna() function** for returning values with a specific value.
 
 
 ### Descriptive Statistics:
