@@ -170,8 +170,9 @@ Any imputing conducted on the training dataset will have to be performed on new 
 For example, if one chooses to impute with mean column values, the mean column values will need to be stored to file for later exercise new data that has missing values.
 
 # 4. EDA (Exploratory Data Analysis)
+**EDA or Exploratory Data Analysis** is the brainstorming stage of Machine Learning. It is a very important step which takes place after feature engineering and acquiring data and it should be done before any modeling. It's very important for a data scientist to be able to understand the nature of the data without making assumptions.
 
-EDA or Exploratory Data Analysis is the brainstorming stage of Machine Learning. Data Exploration involves understanding the patterns and trends in the data. At this stage, all the useful insights are drawn and correlations between the variables are understood.
+The purpose of EDA is to use summary statistics and visualizations to better understand data, and find clues about the tendencies (the patterns and trends in the data) of the data, its quality and to formulate assumptions and the hypothesis of our analysis. At this stage, all the useful insights are drawn and correlations between the variables are understood.
 
 For example, in the case of predicting rainfall, we know that there is a strong possibility of rain if the temperature has fallen low. Such correlations must be understood and mapped at this stage.
 
@@ -214,6 +215,22 @@ Such inconsiderate behavior can lead to skewed data, with outliers and too many 
 * generating accurate models on the wrong data;
 * choosing the wrong variables for the model;
 * inefficient use of the resources, including the rebuilding of the model.
+
+It is a classical and under-utilized approach that helps you quickly build a relationship with the new data.
+
+It is always better to explore each data set using multiple exploratory techniques and compare the results. The goal of this step is to understand the dataset, identify the missing values & outliers if any using visual and quantitative methods to get a sense of the story it tells. It suggests the next logical steps, questions or areas of research for your project.
+
+### Steps in Data Exploration and Preprocessing:
+1. Identification of variables and data types
+2. Analyzing the basic metrics
+3. Non-Graphical Univariate Analysis
+4. Graphical Univariate Analysis
+5. Bivariate Analysis
+6. Variable transformations
+7. Missing value treatment
+8. Outlier treatment
+9. Correlation Analysis
+10. Dimensionality Reduction
 
 ### Descriptive Statistics:
 Descriptive Statistics uses the data to provide descriptions of the population, either through numerical calculation or graph or tables.
