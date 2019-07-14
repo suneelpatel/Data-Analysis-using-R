@@ -119,7 +119,7 @@ The process of changing data to make it more orgazined and easy to read is known
 
 Before we discuss data manipulation in depth we need to understand **data wrangling or data munging** first.
 
-#### Data Wrangling:
+#### Data Wrangling (Data Munging):
 Data Wrangling is the process of converting and mapping data from its raw form to another format with the purpose of making it more valuable and appropriate for advance tasks such as Data Analytics and Machine Learning.
 
 Data wrangling, like most data analytics processes, is an iterative one – the practitioner will need to carry out these steps repeatedly in order to produce the results he desires. There are six broad steps to data wrangling, which are:
