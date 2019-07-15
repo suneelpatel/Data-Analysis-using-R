@@ -998,6 +998,37 @@ Note: If you use this approach on an exam, you may also want to mention why this
 # 10. Data Visualization
 **Data visualization** is the graphical or pictorial representation of information and data.
 
+With ever increasing volume of data, it is impossible to tell stories without visualizations. Data visualization is an art of how to turn numbers into useful knowledge.
+
+R Programming lets you learn this art by offering a set of inbuilt functions and libraries to build visualizations and present data. Before the technical implementations of the visualization, let’s see first how to select the right chart type.
+
+Selecting the Right Chart Type
+
+#### There are four basic presentation types:
+* Comparison
+* Composition
+* Distribution
+* Relationship
+
+###Basic Visualization
+
+* Histogram
+* Bar / Line Chart
+* Box plot
+* Scatter plot
+
+### Advanced Visualization
+
+* Heat Map
+* Mosaic Map
+* Map Visualization
+* 3D Graphs
+* Correlogram
+
+### Data Visualization Packages in R
+* ggplot2
+* plotly
+
 
 # 11. Data Mining
 Data mining is the process of analysing **vast amounts of data** from various sources to extract useful information. This is done through the discovery of previously unknown patterns, correlations, and anomalies, which can then be used to predict future outcomes.
