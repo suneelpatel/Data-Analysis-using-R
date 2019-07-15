@@ -996,7 +996,7 @@ Note: If you use this approach on an exam, you may also want to mention why this
 
 
 # 10. Data Visualization
-
+**Data visualization** is the graphical or pictorial representation of information and data.
 
 # 11. Data Mining
 Data mining is the process of analysing **vast amounts of data** from various sources to extract useful information. This is done through the discovery of previously unknown patterns, correlations, and anomalies, which can then be used to predict future outcomes.
